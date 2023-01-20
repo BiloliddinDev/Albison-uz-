@@ -1,0 +1,63 @@
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.showcase__heading {
+  color: rgb(24, 33, 109);
+  font-size: 56px;
+  line-height: 1.18;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.showcase__text {
+  color: rgb(24, 33, 109);
+  font-size: 21px;
+  line-height: 1.41;
+  max-width: 495px;
+  margin-bottom: 25px;
+}
+
+.showcase__filter {
+  display: flex;
+  gap: 30px;
+}
+
+.showcase__btn {
+  text-align: center;
+  background: rgb(46, 24, 106);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  border: 1px solid rgb(237, 243, 245);
+  border-radius: 4px;
+  padding: 20px 35px;
+  cursor: pointer;
+  margin-top: 0.625rem;
+  max-width: 220px;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+  box-shadow: rgb(23 31 114 / 20%) 0px 16px 30px;
+}
+
+.showcase__btn1 {
+  text-align: center;
+  background: rgb(255, 255, 255);
+  color: rgb(46, 24, 106);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  border: 1px solid rgb(237, 243, 245);
+  border-radius: 4px;
+  padding: 20px 35px;
+  cursor: pointer;
+  margin-top: 0.625rem;
+  max-width: 220px;
+  transition: all 0.3s ease-in-out 0s;
+  text-decoration: none;
+  box-shadow: rgb(23 31 114 / 20%) 0px 16px 30px;
+}

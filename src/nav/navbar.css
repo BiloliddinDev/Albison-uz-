@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.nav__link {
+  font-size: 1.2rem;
+  color: rgb(24, 33, 109);
+  text-decoration: none;
+}
+
+.nav__filter {
+  background: rgb(46, 24, 106);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid rgb(237, 243, 245);
+  border-radius: 4px;
+  padding: 13px 0px;
+  cursor: pointer;
+  margin-top: 0.625rem;
+  max-width: 180px;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: rgb(23 31 114 / 20%) 0px 16px 30px;
+  text-decoration: none;
+  padding: 15px 40px;
+}

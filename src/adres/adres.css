@@ -1,0 +1,28 @@
+.adres {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(203, 199, 199);
+  margin-bottom: 20px;
+}
+
+.adres__title {
+  font-size: 22px;
+  text-transform: capitalize;
+  color: rgb(24, 33, 109);
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.adres__link {
+  text-decoration: none;
+  outline: none;
+  color: rgb(46, 24, 106);
+}
+
+.adres__list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  align-items: center;
+}

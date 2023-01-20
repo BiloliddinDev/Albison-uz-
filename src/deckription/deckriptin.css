@@ -1,0 +1,23 @@
+.cards1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.cards1__heading {
+  color: rgb(24, 33, 109);
+  font-size: 54px;
+  line-height: 1.18;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.cards1__text {
+  max-width: 495px;
+  color: rgb(24, 33, 109);
+  font-size: 21px;
+  line-height: 1.41;
+  max-width: 495px;
+  margin-bottom: 25px;
+}

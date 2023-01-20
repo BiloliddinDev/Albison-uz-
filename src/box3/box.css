@@ -1,0 +1,34 @@
+.box {
+  width: 325px;
+  height: 440px;
+  background-color: #f1f2f3;
+  border-radius: 1.2rem;
+  font-family: Roboto;
+  padding: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.box__title {
+  color: rgb(24, 33, 109);
+  font-size: 56px;
+  line-height: 1.18;
+}
+
+.box__wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box__filter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  margin: 0.5rem;
+  padding: 0.2rem 1rem;
+  transition: 0.5s;
+}

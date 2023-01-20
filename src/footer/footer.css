@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
